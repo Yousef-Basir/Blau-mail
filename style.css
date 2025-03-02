@@ -1,0 +1,51 @@
+*{padding: 0;margin: 0;box-sizing: border-box; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: lighter; transition: all 0.5s;}
+
+body{background-color: #212121;}
+
+.container{width: 500px; margin: 0 auto;}
+#layer{width: 536px; background-color: #fff; margin: 20px auto; border-radius: 5px;}
+
+
+nav{width: 536px; height: 25px; background-color: #f0f0f0; border-bottom: 1px solid #ddd; border-radius: 5px 5px 0 0;}
+    nav ul{margin-left: 125px;}
+     nav ul li{font-size: x-small; line-height: 25px; margin-left: 35px; float: left;}
+     nav ul li a{color: #827e7e; text-decoration: none;}
+     nav ul li a:hover{background-color: rgb(75, 186, 186); color: #211d6c;}
+     nav ul li:nth-child(1){list-style: url(./images/icon1.gif);}
+     nav ul li:nth-child(2){list-style: url(./images/icon2.gif);}
+     nav ul li:nth-child(3){list-style: url(./images/icon3.gif);}
+     nav ul li:nth-child(4){list-style: url(./images/icon4.gif);}
+
+header{width: 536px; height: 80px; margin: 0 auto; box-shadow: 0 2px 2px #ddd;}
+    header h1{float: left; color: #555453; text-transform:uppercase; margin-top: 10px;}
+     header h1 span{color: #ed671e;}
+    header h3{float: left; clear: left; text-transform:uppercase; color: #827e7e; margin-bottom: 30px;}
+    header h2{float:right; color: #827e7e; text-transform: capitalize; margin-top:-10px;}
+
+main{width: 536px; margin: 0 auto; overflow: auto;}
+     main section article{background-image: url(./images/p1.jpg); height: 250px; background-position: center; border-radius: 5px;}
+      main section article h2{display: inline-block; color: #fff; text-transform: uppercase; margin-top:210px; background-color: rgba(237, 101, 29, 0.6); width: 160px; text-align: center; border-radius: 0 5px 5px 0;}
+      main section article h2:hover{width: 82%; background-color: #ed671e; border-radius: 0%; cursor: wait;}
+    main section > h2{text-transform: capitalize; margin-top: 15px; width: 315px; display: inline-block;}
+    main section p:nth-of-type(1){width: 320px; display: inline-block; color: #555453; margin-top: 5px;}
+    main section p:nth-of-type(2){width: 320px; display: inline-block; color: #555453; margin-top: 10px;}
+    main section form{width: 330px; float: left; text-align: right; padding-right: 5px;}
+     main section form input{width:90px; height:20px; background-color: #ed671e; border: 1px solid #a54612; color: #fff; text-transform: uppercase; border-radius: 5px; font-size: x-small; text-align: left; padding-left: 8px; background-image: url(./images/arrow.gif); background-repeat: no-repeat; background-position: 75px 7px; line-height: 20px;}
+     main section form input:hover{background-color: #a15329; cursor: help;}
+     main aside{width: 155px; height: 185px; background-color: #e1e1e1; float: right; margin-right: 18px; margin-top: -165px; border-radius: 5px;}
+    main aside > div{width:135px; height:80px; background-image: url(./images/p2.jpg); margin: 10px auto; border-radius: 5px;}
+    main aside > div h3{background-color: rgba(237, 101, 29, 0.6); color: #fff; width:50%; height: 15px; font-size: x-small; text-align: center; margin-top: 10px; display: inline-block; text-transform: uppercase; line-height: 15px; border-radius: 2px;}
+    main aside > div h3:hover{width: 82%; background-color: #ed671e; border-radius: 0%; cursor: wait;}
+    main aside > p{margin: 0 10px; line-height: 1em; color: #ed671e;}
+
+footer{width: 536px; background-color: #ece9e9; margin-top: 20px; border-radius: 0 0 5px 5px;}
+    footer h3{width: 265px; color: #555453; margin-top: 20px; display: inline-block; text-transform: uppercase;}
+    footer p{width: 265px; color: #555453; text-transform: capitalize; display: inline-block;  margin-bottom: 15px; line-height: 1.2em;}
+    footer p span{color: #ed671e;}
+    footer ul{float: right; margin-top: -25px; line-height: 1.5em;}
+     footer ul li{list-style-type: none; font-size: smaller; text-transform: capitalize;}
+     footer ul li a{color: #555453; text-decoration: none;}
+     footer ul li a:hover{color: blue; cursor: move;}
+     footer ul li:nth-child(1){list-style:url(./images/Social1.jpg); list-style-position: inside;}
+     footer ul li:nth-child(2){list-style:url(./images/Social2.jpg); list-style-position: inside;}
+     footer ul li:nth-child(3){list-style:url(./images/Social3.jpg); list-style-position: inside;}
